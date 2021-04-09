@@ -1,5 +1,18 @@
-POST http://localhost:3000/products
+DELETE http://localhost:3000/product/6
 
+POST http://localhost:3000/product/6
+Content-Type: application/json
+
+{
+  "name": "produto alterado",
+  "price": 10.20
+}
+
+GET http://localhost:3000/product/6
+
+GET http://localhost:3000/product
+
+POST http://localhost:3000/product
 Content-Type: application/json
 
 {
